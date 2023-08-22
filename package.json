@@ -1,33 +1,36 @@
 {
-	"name": "boilerplate",
-	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
-	"license": "GPL-2.0-or-later",
-	"main": "build/index.js",
-	"scripts": {
-		"build": "wp-scripts build",
-		"format": "wp-scripts format && stylelint \"**/*.scss\" --fix",
-		"lint:css": "wp-scripts lint-style",
-		"lint:js": "wp-scripts lint-js",
-		"packages-update": "wp-scripts packages-update",
-		"plugin-zip": "wp-scripts plugin-zip",
-		"start": "wp-scripts start",
-		"prepare": "husky install"
-	},
-	"lint-staged": {
-		"*.js": ["wp-scripts lint-js", "wp-scripts format"],
-		"*.scss": "npx stylelint --fix"
-	},
-	"devDependencies": {
-		"@wordpress/eslint-plugin": "^14.8.0",
-		"@wordpress/prettier-config": "^2.19.0",
-		"@wordpress/scripts": "^26.6.0",
-		"@wordpress/stylelint-config": "^21.19.0",
-		"eslint-config-prettier": "^8.8.0",
-		"husky": "^8.0.3"
-	},
-	"dependencies": {
-		"lint-staged": "^13.2.2"
-	}
+  "name": "blocks-course-data-store-demo",
+  "version": "0.1.0",
+  "description": "Example block scaffolded with Create Block tool.",
+  "author": "The WordPress Contributors",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format && stylelint \"**/*.scss\" --fix",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "wp-scripts lint-js",
+      "wp-scripts format"
+    ],
+    "*.scss": "npx stylelint --fix"
+  },
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^14.8.0",
+    "@wordpress/prettier-config": "^2.19.0",
+    "@wordpress/scripts": "^26.6.0",
+    "@wordpress/stylelint-config": "^21.19.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "lint-staged": "^13.2.2"
+  }
 }

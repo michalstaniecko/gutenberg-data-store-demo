@@ -1,17 +1,15 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/boilerplate",
+	"name": "blocks-course/data-store-demo",
 	"version": "0.1.0",
-	"title": "Boilerplate",
+	"title": "Data store demo",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"icon": "database",
+	"description": "Example of retrieving data store.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "boilerplate",
-	"editorScript": "file:./index.js",
-	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css"
+	"textdomain": "data-store-demo",
+	"editorScript": "file:./index.js"
 }
