@@ -31,6 +31,7 @@
     "husky": "^8.0.3"
   },
   "dependencies": {
+    "@wordpress/data": "^9.10.0",
     "lint-staged": "^13.2.2"
   }
 }
